@@ -21,8 +21,7 @@ Note(s):
 
 namespace Blacktux 
 {
-    class Memory
-    {
+    class Memory {
     public:
         Memory();
         ~Memory();
@@ -55,8 +54,7 @@ namespace Blacktux
         }
     }
     
-    class Time
-    {
+    class Time {
     public:
         Time();
         ~Time();
