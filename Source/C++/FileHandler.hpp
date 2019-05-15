@@ -25,9 +25,9 @@ namespace Blacktux
     class File {
     protected:
         std::vector<string> filePaths;
-        string lowChars[] = "abcdefghijklmnopqrstuvwxyz";
-        string bigChars[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        string numbers[] = "0123456789";
+        string lowChars = "abcdefghijklmnopqrstuvwxyz";
+        string bigChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        string numbers = "0123456789";
         bool OnDisk(const string path);
     private:
         string m_path;
