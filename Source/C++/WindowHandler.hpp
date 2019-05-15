@@ -57,7 +57,7 @@ namespace Blacktux
         delete (this);
     }
     
-     oid Window::UpdateName(const string newName) {
+    void Window::UpdateName(const string newName) {
         this->m_name = newName;
     }
     
