@@ -17,6 +17,7 @@ Note(s):
 #include <Windows.h>
 #include <string>
 #include <vector>
+#include "../C/TypeDefinitions.h"
 
 using string = std::string;
 
