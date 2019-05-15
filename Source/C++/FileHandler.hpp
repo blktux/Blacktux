@@ -1,8 +1,8 @@
 /*-----------------------------
-Copyright (c) 2019 MIT License
+Copyright (c) 2019 M.I.T. License
 
 Author(s):
-- Jordan S.H (blktux)
+- Jordan S.H. (blktux)
 
 Note(s):
 - Value of 1 means the call was
