@@ -42,8 +42,7 @@ namespace Blacktux
         short int Read();
     };
     
-    bool File::OnDisk(const string path)
-    {
+    bool File::OnDisk(const string path) {
         if (FILE *file = fopen(path.c_str(), "r")) {
             return true;
         } else {
